@@ -15,5 +15,6 @@ services:
         fromDatabase:
           name: separation-pmo-db
           property: connectionString
+      # Value comes from Key Vault secret Demo-Apps-Share-API-Key (kv-demo-apps-shared); set it in the Render dashboard.
       - key: ANTHROPIC_API_KEY
         sync: false

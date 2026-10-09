@@ -20,7 +20,7 @@ class Config:
 
     # Claude AI
     ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY')
-    CLAUDE_MODEL = os.environ.get('CLAUDE_MODEL', 'claude-sonnet-4-20250514')
+    CLAUDE_MODEL = os.environ.get('CLAUDE_MODEL', 'claude-sonnet-5-5')
 
     # Rate limiting
     RATELIMIT_DEFAULT = "100 per minute"
